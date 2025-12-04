@@ -15,10 +15,7 @@ import static java.awt.Font.PLAIN;
 
 public class NumberText extends JTextField implements EventListener {
 
-    private final Space space;
-
     public NumberText(final Space space) {
-        this.space = space;
         var dimension = new Dimension(50, 50);
         this.setSize(dimension);
         this.setPreferredSize(dimension);

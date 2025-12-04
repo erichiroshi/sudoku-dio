@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class BoardService {
 
-    private final static int BOARD_LIMIT = 9;
+    private static final int BOARD_LIMIT = 9;
 
     private final Board board;
 
